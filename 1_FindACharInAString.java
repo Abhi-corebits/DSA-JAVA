@@ -5,10 +5,12 @@ public class Main {
 		
 		String name = "Visitors, this is a string consisting words & symbols!!"; 
 		char target = '!';
-		
-		System.out.println(Arrays.toString(name.toCharArray()));      //Conversion of String to Array
+
+		//Conversion of String to Array
+		System.out.println(Arrays.toString(name.toCharArray()));      
+		//Calling search
 		System.out.println(search(name,target));
-	}  //Calling search 
+	}   
 
 
 // Search function
